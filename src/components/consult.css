@@ -1,0 +1,126 @@
+/* Consult.css */
+
+.consult-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+  justify-content: space-between;
+  background-color: #f9fafb;
+}
+
+.consult-info {
+  flex: 1 1 45%;
+}
+
+.consult-info h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 10px;
+}
+
+.consult-info p {
+  font-size: 1rem;
+  color: #475569;
+  margin-bottom: 20px;
+}
+
+.consult-benefits {
+  list-style: none;
+  padding: 0;
+}
+
+.consult-benefits li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.consult-benefits .icon {
+  font-size: 1.5rem;
+  background: #e0f2ff;
+  color: #2563eb;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+.consult-benefits p {
+  margin: 5px 0 0;
+  color: #475569;
+  font-size: 0.95rem;
+}
+
+.consult-form {
+  flex: 1 1 45%;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.consult-form h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #1e293b;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.form-row input {
+  flex: 1;
+}
+
+input, select, textarea {
+  padding: 10px 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #2563eb;
+  color: #fff;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+@media (max-width: 768px) {
+  .consult-container {
+    flex-direction: column;
+  }
+
+  .consult-info, .consult-form {
+    flex: 1 1 100%;
+  }
+}

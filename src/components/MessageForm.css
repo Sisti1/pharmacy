@@ -1,0 +1,82 @@
+.message-form-container {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 40px auto;
+  max-width: 900px;
+  background-color: #ffffff;
+}
+
+.form-section {
+  flex: 1;
+  background-color: #1d4ed8;
+  color: white;
+  padding: 40px 30px;
+  min-width: 300px;
+}
+
+.form-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.form-section p {
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+}
+
+.form-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-section label {
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.form-section input,
+.form-section textarea {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 6px;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  color: white;
+  font-size: 0.95rem;
+}
+
+.form-section input::placeholder,
+.form-section textarea::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.form-section button {
+  background-color: #16a34a;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.form-section button:hover {
+  background-color: #15803d;
+}
+
+.image-section {
+  flex: 1;
+  min-width: 300px;
+  background-color: #f1f5f9;
+}
+
+.image-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}

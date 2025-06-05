@@ -1,0 +1,79 @@
+/* Full width grey background */
+.contact-wrapper {
+  width: 100%;
+  background-color: #f0f0f0; /* light grey */
+  padding: 0;
+  margin: 0;
+}
+
+/* Main container with centered content */
+.contact-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.contact-container h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.subheading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Content Layout */
+.contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+/* Map Section */
+.map-section {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+.map-info {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+
+.map-info button {
+  background-color: #2563eb;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* Info Grid */
+.info-grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  min-width: 300px;
+}
+
+.info-card {
+  background-color: #eaf1ff;
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.icon {
+  font-size: 24px;
+  margin-top: 5px;
+}
