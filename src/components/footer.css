@@ -1,0 +1,172 @@
+.footer {
+  background-color: #0e1a2b;
+  color: white;
+  padding: 40px 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-brand {
+  flex: 1 1 250px;
+}
+
+.footer-brand h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.logo-icon {
+  background-color: #3366ff;
+  padding: 4px 8px;
+  border-radius: 50%;
+  margin-right: 5px;
+  color: white;
+}
+
+.footer-brand p {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.social-icons svg {
+  font-size: 18px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.social-icons svg:hover {
+  color: #00bfff;
+}
+
+.footer-section {
+  flex: 1 1 200px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.footer-section p {
+  font-size: 14px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-section svg {
+  margin-right: 8px;
+  color: #00bfff;
+}
+
+.footer-bottom {
+  border-top: 1px solid #1c2b3a;
+  margin-top: 30px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 13px;
+}
+
+.footer-links a {
+  margin-left: 15px;
+  color: #ccc;
+  text-decoration: none;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-circle {
+  background-color: #2563eb;
+  color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.logo-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-circle {
+  background-color: #2563eb;
+  color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.logo-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+.logo-image {
+  width: 60px;           
+  height: 60px;
+  object-fit: cover;     
+  border-radius: 50%;   
+  margin-right: 10px;
+  border: 2px solid #ccc; 
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-links {
+    margin-top: 10px;
+  }
+}
