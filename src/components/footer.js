@@ -2,7 +2,7 @@ import React from "react";
 import "./footer.css"; // Ensure you have a CSS file for styling
 import {
   FaFacebookF,
-  FaTwitter,
+
   FaInstagram,
   FaLinkedinIn,
   FaPhone,
@@ -29,7 +29,7 @@ const Footer = () => {
           <p> Combating Opium Addiction in India's Youth: A Holistic Ayurvedic Solution</p>
           <div className="social-icons">
             <FaFacebookF />
-            <FaTwitter />
+         
             <FaInstagram />
             <FaLinkedinIn />
           </div>
